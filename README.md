@@ -7,8 +7,8 @@ However, high-demand solutions such as neural networks require efficient operati
 The [Cheon-Kim-Kim-Song (CKKS)](https://doi.org/10.1007/978-3-319-70694-8_15) HE scheme and homomorphic operations were implemented using the open-source Simple Encrypted Arithmetic Library (SEAL) through the Python [TenSEAL](https://github.com/OpenMined/TenSEAL/) library. The ciphertext size, scheme performance, multiplicative depth, and security level directly depend on the security parameter settings. We adopt security settings specified in the [HE standard](https://HomomorphicEncryption.org/standard).
 
 The project includes four Jupyter notebooks:
-- CNN1-HE-SLAF.ipynd: Training and testing CNN1-HE-SLAF model.
-- CNN2-HE-SLAF.ipynd: Training and testing CNN2-HE-SLAF model.
+- CNN1_HE_SLAF.ipynd: Training and testing CNN1-HE-SLAF model.
+- CNN2_HE_SLAF.ipynd: Training and testing CNN2-HE-SLAF model.
 - Performance_accuracy_comparison_approaches.ipynb: Performance of the state-of-the-art fixed-precision numbers homomorphic comparison approaches.
 - Interval_based_approximation_analysis.ipynb: Interval-based error analysis of fixed-precision numbers homomorphic comparison approaches.
 
